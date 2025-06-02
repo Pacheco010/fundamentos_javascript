@@ -45,3 +45,15 @@ function mostrarNulo() {
 function mostrarConstante() {
   alert("Constante mes: " + mes);
 }
+
+function mostrarZ() {
+  alert("Valor indefinido: " + valorIndefinido);
+}
+
+function mostrarX() {
+  alert("Valor nulo: " + valorNulo);
+}
+
+function mostrarC() {
+  alert("Constante mes: " + mes);
+}
