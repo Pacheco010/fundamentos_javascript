@@ -8,6 +8,9 @@ let objetoPersona = { nombre: "Ana", edad: 30 };
 let valorIndefinido;
 let valorNulo = null;
 let Edad = 28;
+let Rut = 1105689318;
+let Altura = 165;
+let Fecha = 2025;
 const mes = "Junio";
 
 // Funciones para mostrar cada valor con alert()
@@ -43,7 +46,18 @@ function mostrarNulo() {
   alert("Valor nulo: " + valorNulo);
 }
 
+function mostrarFecha() {
+  alert("Fecha: " + Fecha);
+}
+
 function mostrarEdad() {
   alert("Edad: " + Edad);
 }
 
+function mostrarAltura() {
+  alert("Altura: " + Altura);
+}
+
+function mostrarRut() {
+  alert("Rut: " + Rut);
+}
