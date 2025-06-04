@@ -1,11 +1,11 @@
 // Declaración de variables
 let anioNacimiento = 2008;
-let numeroDecimal = 3.14;
-let cadenaTexto = "Hola, mundo";
+let numeroDecimal = 5.30;
+let cadenaTexto = "I am The bone of my sword";
 let valorBooleano = true;
-let arregloNumeros = [1, 2, 3, 4];
-let objetoPersona = { nombre: "Ana", edad: 30 };
-let valorIndefinido;
+let cuentaRegresiva = [5, 4, 3, 2, 1];
+let Personas = { nombre: "Shirou", edad: 16 };
+let valorIndefinido 
 let valorNulo = null;
 let Edad = 28;
 let Rut = 1105689318;
@@ -30,12 +30,12 @@ function mostrarBooleano() {
   alert("Valor booleano: " + valorBooleano);
 }
 
-function mostrarArreglo() {
-  alert("Arreglo de números: " + arregloNumeros);
+function mostrarcuentaRegresiva() {
+  alert("La cuenta regresiva es: " + cuentaRegresiva);
 }
 
-function mostrarObjeto() {
-  alert("Objeto persona: " + JSON.stringify(objetoPersona));
+function mostrarPersonas() {
+  alert("personas: " + JSON.stringify(Personas));
 }
 
 function mostrarIndefinido() {
