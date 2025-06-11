@@ -22,7 +22,7 @@ function manipularApellido(){
   let apellido = prompt("Ingrese su Apellido: ");
   let segundaLetra = apellido[1]; 
   let penultimaLetra = apellido[apellido.length - 2];
- 
+
   alert("Segunda letra es: " + segundaLetra + 
   "\nPenultima letra es: " + penultimaLetra);
 }
