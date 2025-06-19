@@ -70,21 +70,63 @@ function temperaturaAmbiental() {
   }
 }
 
+function comparardosNumeros(){
+    let a = parseInt(prompt("Ingresa primer numero"));
+    let b = parseInt(prompt("Ingresar segundo numero"));
+    if (a == b){
+        alert( a + " es igual a " + b );
+    } else if ( a > b ){
+        alert(a + " es mayor a " + b);
+    } else {
+        alert(b + " es mayor a " + a);
+    }
+};
 
+function calificarNota(){
+    let Nota = parseInt(prompt("Ingresar Nota"));
+    if(Nota >= 4){
+        alert("Aprobado");
+    } else {
+        alert("Reprobado");
+    }
+};
 
+function validarNombre(){
+    let Usuario = prompt("Ingrese palabra");
+    let usu = "admin";
+    if (Usuario == usu){
+        alert("Acceso Permitido");
+    } else {
+        alert("Acceso Denegado");
+    }
+};
 
+function empiezaconA(){
+    let letra = prompt("Ingrese palabra");
+    let letraA = "A"
+    if (letra[0] == letraA){
+        alert("Palabra con A");
+    } else {
+        alert("Tu palabra no empieza con mayuscula")
+    }
+};
 
+function tieneDescuento(){
+    let producto = parseInt(prompt("Ingrese precio"));
+    if (producto >= 10000){
+        alert("Obtienes tu descuento")
+    } else if (producto <= 9999){
+        alert("No tienes descuento")
+    }
+};
 
-////
-
-function usuarioAdmin(){
-  let usu = prompt()
-}
-
-
-
-
-
-
-
-
+function puedesConducir(){
+    let respuesta = "si";
+    let edad = parseInt(prompt("Ingresar edad"))
+    let licencia = prompt("¿Tienes Licencia?")
+    if (edad >= 18 && licencia == respuesta){
+        alert("Puedes conducir")
+    } else {
+        alert("No puedes conducir")
+    }
+};
